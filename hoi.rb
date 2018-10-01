@@ -1,10 +1,10 @@
 require 'formula'
 
-HOMEBREW_HOI_VERSION='0.1.3'
+HOMEBREW_HOI_VERSION='0.1.4'
 class Hoi < Formula
   homepage 'https://github.com/monochromegane/hoi'
   url "https://github.com/monochromegane/hoi/releases/download/v#{HOMEBREW_HOI_VERSION}/hoi_darwin_amd64.zip"
-  sha256 'd7042ae87b2e4bba87da08b0c92db0ce83da4252a903dab89a96883b65905673'
+  sha256 'f8df0bd1a03db7bf43248c9714dc93a0f465fa4e6ed31ba0f9ff6890a374b7e7'
 
   version HOMEBREW_HOI_VERSION
   head 'https://github.com/monochromegane/hoi.git', :branch => 'master'
